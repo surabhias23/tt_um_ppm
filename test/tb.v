@@ -19,7 +19,7 @@ module tb ();
   wire [7:0] uio_oe;
 
   // Instantiate your module
-  tt_um_ppm_encoder user_project (
+  tt_um_ppm_encoder ppm (
 `ifdef GL_TEST
       .VPWR(1'b1),
       .VGND(1'b0),
